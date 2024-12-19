@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator BMI</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator BMI</h1>
+        <p class="description">Body Mass Index (Indeks Massa Tubuh) adalah pengukuran standar untuk menentukan apakah berat badan seseorang normal, kurang, atau berlebih berdasarkan tinggi badan dan berat badan. Pengukuran ini dapat digunakan baik untuk laki-laki maupun perempuan usia 18 tahun ke atas
+            .</p>
+        <form id="bmiForm">
+            <label for="weight">Berat Badan (kg):</label>
+            <input type="number" id="weight" required>
+
+            <label for="height">Tinggi Badan (cm):</label>
+            <input type="number" id="height" required>
+
+            <button type="submit">Hitung BMI</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
